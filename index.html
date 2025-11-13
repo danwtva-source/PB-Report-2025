@@ -154,8 +154,10 @@
         <div class="mb-8 px-2">
             <!-- MODIFICATION: Replaced text header with responsive logo -->
             <img src="https://raw.githubusercontent.com/danwtva-source/PB-Report-2025/9adc3ea3418299ed31e584c8d8c7d88b07e37805/pb-english-transparent.png" alt="Communities' Choice Logo" class="w-full max-w-[200px] h-auto mx-auto" loading="lazy" width="200" height="60">
+        </div> <!-- This closing div was missing in the original file, I've added it for structural correctness based on indentation. -->
 
-        <div class="flex-1 space-y-1">
+        <!-- MODIFICATION: Added overflow-y-auto to make the nav list scrollable -->
+        <div class="flex-1 space-y-1 overflow-y-auto">
             <div class="nav-btn active" onclick="router('dashboard', this)">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
                 Executive Dashboard
@@ -714,7 +716,3 @@
 </body>
 
 </html>
-
-
-
-
